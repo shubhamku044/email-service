@@ -1,0 +1,90 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+/vendor/
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+.next/
+next-env.d.ts
+
+# Production
+/build
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.pem
+.project
+.classpath
+*.launch
+.settings/
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Temporary files
+tmp/
+temp/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+
+# Local Netlify folder
+.netlify
+
+# PWA files
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# Optional: Cache directories
+.npm
+.eslintcache
+.stylelintcache
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Secrets
+key.json
+*.key
+*.pem
